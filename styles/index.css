@@ -1,0 +1,78 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #c9c9c9;
+}
+
+.head-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+#logo {
+    width: 150px;
+    border: 1px solid #c9c9c9;
+}
+
+.logo-name {
+    margin-top: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.top-nav ul li{
+    display: inline-flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    margin-top: 22px;
+    border: 1px solid #c0c0c0;
+    padding: 15px;
+}
+
+.end-nav-menu {
+    padding-top:40px;  
+}
+
+.end-nav-menu span {
+    margin-right: 10px;
+}
+
+.main-body-container {
+    margin-top: 10px;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.home-banner{
+    height: 500px;
+    border: 1px solid #c0c0c0;
+    width: 100%;
+    background-image: url("../images/slide-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-overlay {
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.carousel-inner > .item > h2 {
+    position: relative;
+    top: -380px;
+    left: 250px;
+    color: white;
+    background-color: forestgreen;
+    padding: 20px;
+}
+
